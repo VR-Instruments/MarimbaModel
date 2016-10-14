@@ -305,4 +305,160 @@ LogInit: Object subsystem initialized
 [2016.10.14-16.35.08:290][ 38]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Tree_Stump01.SM_Plains_Tree_Stump01
 [2016.10.14-16.35.08:473][ 38]LogTexture:Display: Building textures: T_Plains_Tree01_D (AutoDXT)
 [2016.10.14-16.35.15:377][ 38]LogMaterial: Missing cached shader map for material M_Plains_Tree_Stump01, compiling. 
-[2016.10.14-16.35.15:417][ 38]LogActorFactory: Actor Factory created SM_Plains_Tree_Stump01
+[2016.10.14-16.35.15:417][ 38]LogActorFactory: Actor Factory created SM_Plains_Tree_Stump01
+[2016.10.14-16.35.15:434][ 38]LogActorFactory: Actor Factory created SM_Plains_Tree_Stump01
+[2016.10.14-16.35.38:084][692]LogSavePackage: Save=186.25ms
+[2016.10.14-16.35.38:084][692]LogSavePackage: Moving '../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Saved/MotionControllerMapB4D490E54B98ED5D8A6064A35E4DCDA9.tmp' to '../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2016.10.14-16.35.38:089][692]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2016.10.14-16.35.38:127][692]LogFileHelpers: Saving map 'MotionControllerMap' took 0.322
+[2016.10.14-16.35.57:692][120]LogTexture:Display: Building textures: T_Snowy_Pine_Low (AutoDXT)
+[2016.10.14-16.35.57:930][120]LogStaticMesh: Building static mesh SM_Pine_Low_Cluster...
+[2016.10.14-16.35.57:944][120]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Pine_Low_Cluster.SM_Pine_Low_Cluster
+[2016.10.14-16.35.57:957][120]LogTexture:Display: Building textures: T_Snowy_Pine_Low_N (BC5)
+[2016.10.14-16.35.57:998][120]LogMaterial: Missing cached shader map for material M_Pine_Low, compiling. 
+[2016.10.14-16.35.58:050][120]LogActorFactory: Actor Factory created SM_Pine_Low_Cluster
+[2016.10.14-16.35.58:060][120]LogActorFactory: Actor Factory created SM_Pine_Low_Cluster
+[2016.10.14-16.36.21:882][836]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.10.14-16.36.40:869][307]LogSavePackage: Save=182.81ms
+[2016.10.14-16.36.40:869][307]LogSavePackage: Moving '../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Saved/MotionControllerMapE270F3EC46859C5D654AE6A316D80FC8.tmp' to '../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2016.10.14-16.36.40:872][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2016.10.14-16.36.40:901][307]LogFileHelpers: Saving map 'MotionControllerMap' took 0.342
+[2016.10.14-16.37.43:570][750]LogActorFactory: Actor Factory created SM_Pine_Low_Cluster
+[2016.10.14-16.37.45:107][796]LogActorFactory: Actor Factory created SM_Pine_Low_Cluster
+[2016.10.14-16.37.46:701][834]LogActorFactory: Actor Factory created SM_Pine_Low_Cluster
+[2016.10.14-16.37.47:440][856]LogActorFactory: Actor Factory created SM_Pine_Low_Cluster
+[2016.10.14-16.37.49:608][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Pine_Low_Cluster2)
+[2016.10.14-16.38.05:430][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Pine_Low_Cluster3)
+[2016.10.14-16.38.34:040][208]LogSavePackage: Save=150.56ms
+[2016.10.14-16.38.34:040][208]LogSavePackage: Moving '../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Saved/MotionControllerMap1CF722CC4888ED97C39278B3815FC49D.tmp' to '../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2016.10.14-16.38.34:044][208]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2016.10.14-16.38.34:068][208]LogFileHelpers: Saving map 'MotionControllerMap' took 0.250
+[2016.10.14-16.43.29:961][165]MapCheck: New page: Map Check
+[2016.10.14-16.43.30:093][165]Cmd: MAP REBUILD ALLVISIBLE
+[2016.10.14-16.43.30:093][165]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.10.14-16.43.30:268][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2016.10.14-16.43.30:276][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2016.10.14-16.43.30:291][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy AntiAliasedTextMaterialTranslucent, compiling. 
+[2016.10.14-16.43.30:300][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2016.10.14-16.43.30:308][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
+[2016.10.14-16.43.30:315][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
+[2016.10.14-16.43.30:322][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BONCONTRO_Mat, compiling. 
+[2016.10.14-16.43.30:332][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2016.10.14-16.43.30:340][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2016.10.14-16.43.30:348][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bush, compiling. 
+[2016.10.14-16.43.30:355][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground_Grass, compiling. 
+[2016.10.14-16.43.30:363][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2016.10.14-16.43.30:371][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock, compiling. 
+[2016.10.14-16.43.30:379][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TreeBark, compiling. 
+[2016.10.14-16.43.30:387][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Cherry_Tree, compiling. 
+[2016.10.14-16.43.30:395][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Exo_Generic_Plants, compiling. 
+[2016.10.14-16.43.30:402][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Tree_Stump01, compiling. 
+[2016.10.14-16.43.30:410][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Pine_Low, compiling. 
+[2016.10.14-16.43.30:416][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2016.10.14-16.43.30:423][165]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Walnut, compiling. 
+[2016.10.14-16.43.32:468][165]LogLevel:Display: Export Material TexCoord Scales took 0.038 seconds.
+[2016.10.14-16.43.32:484][165]TextureStreamingBuild:Display: Build Texture Streaming took 0.016 seconds.
+[2016.10.14-16.43.32:495][165]LightingResults: New page: Lighting Build - Oct 14, 2016, 7:43:32 AM
+[2016.10.14-16.43.32:593][165]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.10.14-16.43.32:689][165]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.10.14-16.43.32:698][165]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.10.14-16.43.33:207][165]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.10.14-16.43.33:207][165]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10172
+[2016.10.14-16.43.34:169][165]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.10.14-16.43.34:169][165]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.10.14-16.43.34:169][165]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.10.14-16.43.34:169][165]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.10.14-16.43.34:169][165]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.10.14-16.43.34:364][165]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.10.14-16.43.34:364][165]MapCheck: New page: MotionControllerMap - Oct 14, 2016, 7:43:34 AM
+[2016.10.14-16.43.34:365][165]MapCheck:Warning: Warning SM_Pine_Low_Cluster2_14 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
+[2016.10.14-16.43.34:365][165]MapCheck:Warning: Warning SM_Pine_Low_Cluster_11 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
+[2016.10.14-16.43.34:365][165]MapCheck:Warning: Warning SM_SmallTree02_5 Collision enabled but StaticMesh (SM_SmallTree02) has no simple or complex collision. 
+[2016.10.14-16.43.34:365][165]MapCheck:Warning: Warning SM_Pine_Low_Cluster3_17 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
+[2016.10.14-16.43.34:365][165]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2016.10.14-16.43.34:431][165]MapCheck: Info Map check complete: 1 Error(s), 4 Warning(s), took 67.197ms to complete.
+[2016.10.14-16.43.34:454][165]LogEditorBuildUtils: Build time 0:04
+[2016.10.14-16.43.34:592][166]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TreeBark, compiling. 
+[2016.10.14-16.43.34:598][166]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TreeBark, compiling. 
+[2016.10.14-16.43.34:613][167]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Cherry_Tree, compiling. 
+[2016.10.14-16.43.34:620][167]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Cherry_Tree, compiling. 
+[2016.10.14-16.43.34:629][167]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Cherry_Tree, compiling. 
+[2016.10.14-16.43.34:651][168]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Exo_Generic_Plants, compiling. 
+[2016.10.14-16.43.34:658][168]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Exo_Generic_Plants, compiling. 
+[2016.10.14-16.43.34:665][168]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Exo_Generic_Plants, compiling. 
+[2016.10.14-16.43.34:701][169]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Plains_Tree_Stump01, compiling. 
+[2016.10.14-16.43.34:707][169]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Plains_Tree_Stump01, compiling. 
+[2016.10.14-16.43.34:719][170]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Pine_Low, compiling. 
+[2016.10.14-16.43.34:727][170]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Pine_Low, compiling. 
+[2016.10.14-16.43.34:734][170]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Pine_Low, compiling. 
+[2016.10.14-16.43.46:724][426]Job is a success!
+[2016.10.14-16.43.47:640][427]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.10.14-16.43.47:640][427]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.10.14-16.43.47:640][427]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.10.14-16.43.47:640][427]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.10.14-16.43.47:640][427]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.10.14-16.43.47:640][427]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.10.14-16.43.47:640][427]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.10.14-16.43.47:640][427]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.10.14-16.43.47:809][427]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2016.10.14-16.43.47:809][427]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2016.10.14-16.43.47:809][427]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2016.10.14-16.43.47:809][427]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2016.10.14-16.43.47:846][427]Lightmass on DESKTOP-C6JH4LA: 9.64 sec total, 191 ms importing, 44 ms setup, 793 ms photons, 8.59 sec processing, 0 ms extra exporting [82/82 mappings]. Threads: 34.3 sec total, 22.1 sec processing.
+[2016.10.14-16.43.47:941][427]LogStaticLightingSystem: Illumination: 15.3 sec (671 ms encoding lightmaps, 163 ms encoding shadowmaps)
+[2016.10.14-16.43.47:942][427]LogStaticLightingSystem: Lightmap texture memory:  2.5 MB (0.5 MB streaming, 2.0 MB non-streaming), 8 textures
+[2016.10.14-16.43.47:942][427]LogStaticLightingSystem: Shadowmap texture memory: 3.3 MB (0.7 MB streaming, 2.7 MB non-streaming), 4 textures
+[2016.10.14-16.43.48:170][428]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.10.14-16.43.48:170][428]MapCheck: New page: MotionControllerMap - Oct 14, 2016, 7:43:48 AM
+[2016.10.14-16.43.48:172][428]MapCheck:Warning: Warning SM_Pine_Low_Cluster2_14 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
+[2016.10.14-16.43.48:172][428]MapCheck:Warning: Warning SM_Pine_Low_Cluster_11 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
+[2016.10.14-16.43.48:172][428]MapCheck:Warning: Warning SM_SmallTree02_5 Collision enabled but StaticMesh (SM_SmallTree02) has no simple or complex collision. 
+[2016.10.14-16.43.48:172][428]MapCheck:Warning: Warning SM_Pine_Low_Cluster3_17 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
+[2016.10.14-16.43.48:257][428]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 86.792ms to complete.
+[2016.10.14-16.44.10:160][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cherry_Tree)
+[2016.10.14-16.44.20:343][338]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.10.14-16.44.35:166][773]MapCheck: New page: Map Check
+[2016.10.14-16.44.35:299][773]Cmd: MAP REBUILD ALLVISIBLE
+[2016.10.14-16.44.35:299][773]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.10.14-16.44.35:468][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2016.10.14-16.44.35:474][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_31, compiling. 
+[2016.10.14-16.44.35:482][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy AntiAliasedTextMaterialTranslucent, compiling. 
+[2016.10.14-16.44.35:490][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2016.10.14-16.44.35:497][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
+[2016.10.14-16.44.35:503][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
+[2016.10.14-16.44.35:511][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BONCONTRO_Mat, compiling. 
+[2016.10.14-16.44.35:518][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2016.10.14-16.44.35:526][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2016.10.14-16.44.35:534][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bush, compiling. 
+[2016.10.14-16.44.35:541][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground_Grass, compiling. 
+[2016.10.14-16.44.35:549][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2016.10.14-16.44.35:556][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock, compiling. 
+[2016.10.14-16.44.35:563][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TreeBark, compiling. 
+[2016.10.14-16.44.35:570][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Cherry_Tree, compiling. 
+[2016.10.14-16.44.35:579][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Exo_Generic_Plants, compiling. 
+[2016.10.14-16.44.35:586][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Tree_Stump01, compiling. 
+[2016.10.14-16.44.35:594][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Pine_Low, compiling. 
+[2016.10.14-16.44.35:601][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2016.10.14-16.44.35:607][773]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Walnut, compiling. 
+[2016.10.14-16.44.37:681][773]LogLevel:Display: Export Material TexCoord Scales took 0.026 seconds.
+[2016.10.14-16.44.37:699][773]TextureStreamingBuild:Display: Build Texture Streaming took 0.018 seconds.
+[2016.10.14-16.44.37:711][773]LightingResults: New page: Lighting Build - Oct 14, 2016, 7:44:37 AM
+[2016.10.14-16.44.37:717][773]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.10.14-16.44.37:719][773]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.10.14-16.44.37:719][773]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.10.14-16.44.37:720][773]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.10.14-16.44.37:720][773]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10172
+[2016.10.14-16.44.39:376][773]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.10.14-16.44.39:376][773]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.10.14-16.44.39:376][773]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.10.14-16.44.39:376][773]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.10.14-16.44.39:376][773]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.10.14-16.44.39:574][773]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.10.14-16.44.39:574][773]MapCheck: New page: MotionControllerMap - Oct 14, 2016, 7:44:39 AM
+[2016.10.14-16.44.39:603][773]MapCheck:Warning: Warning SM_Pine_Low_Cluster2_14 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
+[2016.10.14-16.44.39:603][773]MapCheck:Warning: Warning SM_Pine_Low_Cluster_11 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
+[2016.10.14-16.44.39:603][773]MapCheck:Warning: Warning SM_SmallTree02_5 Collision enabled but StaticMesh (SM_SmallTree02) has no simple or complex collision. 
+[2016.10.14-16.44.39:603][773]MapCheck:Warning: Warning SM_Pine_Low_Cluster3_17 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
+[2016.10.14-16.44.39:669][773]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 95.352ms to complete.
+[2016.10.14-16.44.39:692][773]LogEditorBuildUtils: Build time 0:04
+[2016.10.14-16.44.48:787][981]Job is a success!

@@ -315,3 +315,241 @@ LogInit: Object subsystem initialized
 [2016.10.14-15.57.01:030][267]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
 [2016.10.14-15.57.01:039][267]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
 [2016.10.14-15.57.12:381][487]Job is a success!
+[2016.10.14-15.57.13:357][488]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.10.14-15.57.13:357][488]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.10.14-15.57.13:357][488]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.10.14-15.57.13:357][488]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.10.14-15.57.13:357][488]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.10.14-15.57.13:357][488]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.10.14-15.57.13:357][488]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.10.14-15.57.13:357][488]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.10.14-15.57.13:516][488]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2016.10.14-15.57.13:516][488]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2016.10.14-15.57.13:516][488]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2016.10.14-15.57.13:516][488]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2016.10.14-15.57.13:540][488]Lightmass on DESKTOP-C6JH4LA: 11.1 sec total, 137 ms importing, 25 ms setup, 2.25 sec photons, 8.73 sec processing, 0 ms extra exporting [55/55 mappings]. Threads: 34.8 sec total, 17.4 sec processing.
+[2016.10.14-15.57.13:656][488]LogStaticLightingSystem: Illumination: 14.2 sec (626 ms encoding lightmaps, 153 ms encoding shadowmaps)
+[2016.10.14-15.57.13:656][488]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (0.0 MB streaming, 2.0 MB non-streaming), 8 textures
+[2016.10.14-15.57.13:656][488]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 4 textures
+[2016.10.14-15.57.13:737][489]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.10.14-15.57.13:737][489]MapCheck: New page: MotionControllerMap - Oct 14, 2016, 6:57:13 AM
+[2016.10.14-15.57.13:785][489]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.16ms to complete.
+[2016.10.14-15.57.53:151][610]LogSavePackage: Save=224.59ms
+[2016.10.14-15.57.53:151][610]LogSavePackage: Moving '../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Saved/MotionControllerMapE289734E4FFB8C8F5949549455B27E92.tmp' to '../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2016.10.14-15.57.53:158][610]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2016.10.14-15.57.53:182][610]LogFileHelpers: Saving map 'MotionControllerMap' took 1.570
+[2016.10.14-15.58.16:927][322]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.10.14-15.59.57:676][458]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.10.14-16.00.15:426][941]LogTexture:Display: Building textures: T_Bush_D (AutoDXT)
+[2016.10.14-16.00.15:959][941]LogTexture:Display: Building textures: T_Bush_N (BC5)
+[2016.10.14-16.00.16:004][941]LogMaterial: Missing cached shader map for material M_Bush, compiling. 
+[2016.10.14-16.00.16:105][941]LogActorFactory: Actor Factory created SM_Bush
+[2016.10.14-16.00.16:701][959]LogActorFactory: Actor Factory created SM_Bush
+[2016.10.14-16.02.35:991][875]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2016.10.14-16.02.40:226][  5]Cmd: EDIT COPY
+[2016.10.14-16.02.40:427][ 11]Cmd: EDIT PASTE
+[2016.10.14-16.03.01:357][581]LogTexture:Display: Building textures: T_Ground_Grass_D (AutoDXT)
+[2016.10.14-16.03.08:620][581]LogTexture:Display: Building textures: T_Ground_Grass_N (BC5)
+[2016.10.14-16.03.09:547][581]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2016.10.14-16.03.18:118][843]Cmd: DELETE
+[2016.10.14-16.03.18:118][843]Cmd: ACTOR DELETE
+[2016.10.14-16.03.18:120][843]LogEditorActor: Deleted Actor: Brush
+[2016.10.14-16.03.18:166][843]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2016.10.14-16.03.28:916][153]Cmd: TRANSACTION UNDO
+[2016.10.14-16.03.28:916][153]LogEditorTransaction: Undo Scale Actors
+[2016.10.14-16.03.28:961][153]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2016.10.14-16.03.56:928][963]Cmd: EDIT COPY
+[2016.10.14-16.03.57:161][970]Cmd: EDIT PASTE
+[2016.10.14-16.04.18:826][558]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2016.10.14-16.04.18:926][558]LogActorFactory: Actor Factory created SM_GlassWindow
+[2016.10.14-16.04.19:653][580]LogActorFactory: Actor Factory created SM_GlassWindow
+[2016.10.14-16.04.52:949][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow)
+[2016.10.14-16.05.08:564][979]Cmd: EDIT COPY
+[2016.10.14-16.05.08:797][986]Cmd: EDIT PASTE
+[2016.10.14-16.05.28:767][501]LogSavePackage: Save=199.14ms
+[2016.10.14-16.05.28:767][501]LogSavePackage: Moving '../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Saved/MotionControllerMapA660991D4C530FAA120D3089F27B83F9.tmp' to '../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2016.10.14-16.05.28:772][501]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2016.10.14-16.05.28:806][501]LogFileHelpers: Saving map 'MotionControllerMap' took 0.399
+[2016.10.14-16.05.50:474][123]Cmd: DELETE
+[2016.10.14-16.05.50:474][123]Cmd: ACTOR DELETE
+[2016.10.14-16.05.50:475][123]LogEditorActor: Deleted Actor: Brush
+[2016.10.14-16.05.50:520][123]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2016.10.14-16.05.51:503][150]Cmd: DELETE
+[2016.10.14-16.05.51:503][150]Cmd: ACTOR DELETE
+[2016.10.14-16.05.51:506][150]LogEditorActor: Deleted Actor: Brush
+[2016.10.14-16.05.51:551][150]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2016.10.14-16.05.52:768][188]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.10.14-16.05.53:572][213]Cmd: DELETE
+[2016.10.14-16.05.53:572][213]Cmd: ACTOR DELETE
+[2016.10.14-16.05.53:573][213]LogEditorActor: Deleted Actor: Brush
+[2016.10.14-16.05.53:591][213]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.10.14-16.06.39:630][546]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.10.14-16.06.45:612][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow)
+[2016.10.14-16.06.46:959][763]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.10.14-16.06.48:326][796]MapCheck: New page: Map Check
+[2016.10.14-16.06.48:459][796]Cmd: MAP REBUILD ALLVISIBLE
+[2016.10.14-16.06.48:461][796]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.10.14-16.06.48:632][796]LogEditorServer: Cleared 2 NULL BSP materials after rebuild.
+[2016.10.14-16.06.48:663][796]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2016.10.14-16.06.48:670][796]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_4, compiling. 
+[2016.10.14-16.06.48:679][796]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy AntiAliasedTextMaterialTranslucent, compiling. 
+[2016.10.14-16.06.48:688][796]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2016.10.14-16.06.48:695][796]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
+[2016.10.14-16.06.48:702][796]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
+[2016.10.14-16.06.48:710][796]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BONCONTRO_Mat, compiling. 
+[2016.10.14-16.06.48:717][796]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2016.10.14-16.06.48:724][796]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2016.10.14-16.06.48:732][796]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bush, compiling. 
+[2016.10.14-16.06.48:739][796]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground_Grass, compiling. 
+[2016.10.14-16.06.48:747][796]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2016.10.14-16.06.48:755][796]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2016.10.14-16.06.48:763][796]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Walnut, compiling. 
+[2016.10.14-16.06.50:117][796]LogLevel:Display: Export Material TexCoord Scales took 0.026 seconds.
+[2016.10.14-16.06.50:131][796]TextureStreamingBuild:Display: Build Texture Streaming took 0.015 seconds.
+[2016.10.14-16.06.50:142][796]LightingResults: New page: Lighting Build - Oct 14, 2016, 7:06:50 AM
+[2016.10.14-16.06.50:150][796]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.10.14-16.06.50:152][796]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.10.14-16.06.50:152][796]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.10.14-16.06.50:153][796]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.10.14-16.06.50:153][796]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9840
+[2016.10.14-16.06.51:975][796]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.10.14-16.06.51:975][796]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.10.14-16.06.51:975][796]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.10.14-16.06.51:976][796]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.10.14-16.06.51:976][796]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.10.14-16.06.52:253][796]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.10.14-16.06.52:253][796]MapCheck: New page: MotionControllerMap - Oct 14, 2016, 7:06:52 AM
+[2016.10.14-16.06.52:254][796]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2016.10.14-16.06.52:349][796]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 96.844ms to complete.
+[2016.10.14-16.06.52:372][796]LogEditorBuildUtils: Build time 0:03
+[2016.10.14-16.06.52:476][797]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bush, compiling. 
+[2016.10.14-16.06.52:484][797]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bush, compiling. 
+[2016.10.14-16.06.52:493][797]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bush, compiling. 
+[2016.10.14-16.06.52:695][798]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2016.10.14-16.06.52:702][798]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2016.10.14-16.06.52:722][799]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling. 
+[2016.10.14-16.06.52:729][799]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling. 
+[2016.10.14-16.06.58:537][845]Job is a success!
+[2016.10.14-16.06.59:304][846]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.10.14-16.06.59:304][846]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.10.14-16.06.59:304][846]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.10.14-16.06.59:304][846]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.10.14-16.06.59:304][846]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.10.14-16.06.59:304][846]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.10.14-16.06.59:304][846]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.10.14-16.06.59:304][846]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.10.14-16.06.59:460][846]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2016.10.14-16.06.59:460][846]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2016.10.14-16.06.59:460][846]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2016.10.14-16.06.59:460][846]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2016.10.14-16.06.59:479][846]Lightmass on DESKTOP-C6JH4LA: 3.24 sec total, 200 ms importing, 24 ms setup, 334 ms photons, 2.64 sec processing, 0 ms extra exporting [58/58 mappings]. Threads: 10.5 sec total, 4.67 sec processing.
+[2016.10.14-16.06.59:608][846]LogStaticLightingSystem: Illumination: 9.28 sec (384 ms encoding lightmaps, 153 ms encoding shadowmaps)
+[2016.10.14-16.06.59:608][846]LogStaticLightingSystem: Lightmap texture memory:  2.1 MB (0.1 MB streaming, 2.0 MB non-streaming), 8 textures
+[2016.10.14-16.06.59:608][846]LogStaticLightingSystem: Shadowmap texture memory: 2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 4 textures
+[2016.10.14-16.06.59:997][847]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.10.14-16.06.59:997][847]MapCheck: New page: MotionControllerMap - Oct 14, 2016, 7:06:59 AM
+[2016.10.14-16.07.00:084][847]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 86.66ms to complete.
+[2016.10.14-16.09.51:803][814]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2016.10.14-16.10.04:385][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow)
+[2016.10.14-16.10.28:493][884]LogSavePackage: Save=240.30ms
+[2016.10.14-16.10.28:493][884]LogSavePackage: Moving '../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Saved/MotionControllerMap4808528A4AA56193736806AC8CD91CE2.tmp' to '../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2016.10.14-16.10.28:496][884]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ajgaj/Documents/RIT/VR/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2016.10.14-16.10.28:544][884]LogFileHelpers: Saving map 'MotionControllerMap' took 0.395
+[2016.10.14-16.13.04:038][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow)
+[2016.10.14-16.13.32:027][254]LogTexture:Display: Building textures: T_Rock_Basalt_D (AutoDXT)
+[2016.10.14-16.13.38:577][254]LogTexture:Display: Building textures: T_RockMesh_M (DXT1)
+[2016.10.14-16.13.41:126][254]LogTexture:Display: Building textures: T_RockMesh_N (BC5)
+[2016.10.14-16.13.41:865][254]LogMaterial: Missing cached shader map for material M_Rock, compiling. 
+[2016.10.14-16.13.41:914][254]LogActorFactory: Actor Factory created SM_Rock
+[2016.10.14-16.13.41:929][254]LogActorFactory: Actor Factory created SM_Rock
+[2016.10.14-16.14.06:109][919]LogActorFactory: Actor Factory created SM_Bush
+[2016.10.14-16.14.06:554][932]LogActorFactory: Actor Factory created SM_Bush
+[2016.10.14-16.14.21:209][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush)
+[2016.10.14-16.14.32:041][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2016.10.14-16.14.34:138][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush2)
+[2016.10.14-16.14.46:032][100]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.10.14-16.14.46:571][116]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.10.14-16.15.26:408][160]Cmd: EDIT COPY
+[2016.10.14-16.15.26:576][165]Cmd: EDIT PASTE
+[2016.10.14-16.15.38:349][467]LogTexture:Display: Building textures: HDRI_Epic_Courtyard_Daylight (RGBA16F)
+[2016.10.14-16.15.47:343][467]LogMaterial: Missing cached shader map for material HDRI_Epic_Courtyard_Daylight_Mat, compiling. 
+[2016.10.14-16.15.47:343][467]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight_Mat.HDRI_Epic_Courtyard_Daylight_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2016.10.14-16.15.47:343][467]LogMaterial:Warning: 	(Node TextureSample) Coercion failed: Parameters.TexCoords[0].xy: float2 -> float3
+[2016.10.14-16.16.13:865][219]MapCheck: New page: Map Check
+[2016.10.14-16.16.13:998][219]Cmd: MAP REBUILD ALLVISIBLE
+[2016.10.14-16.16.13:999][219]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.10.14-16.16.14:236][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2016.10.14-16.16.14:242][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_6, compiling. 
+[2016.10.14-16.16.14:250][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy AntiAliasedTextMaterialTranslucent, compiling. 
+[2016.10.14-16.16.14:257][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2016.10.14-16.16.14:265][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
+[2016.10.14-16.16.14:272][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
+[2016.10.14-16.16.14:280][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BONCONTRO_Mat, compiling. 
+[2016.10.14-16.16.14:286][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2016.10.14-16.16.14:294][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2016.10.14-16.16.14:302][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bush, compiling. 
+[2016.10.14-16.16.14:310][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground_Grass, compiling. 
+[2016.10.14-16.16.14:317][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2016.10.14-16.16.14:323][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2016.10.14-16.16.14:331][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock, compiling. 
+[2016.10.14-16.16.14:339][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy HDRI_Epic_Courtyard_Daylight_Mat, compiling. 
+[2016.10.14-16.16.14:344][219]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Walnut, compiling. 
+[2016.10.14-16.16.15:705][219]LogLevel:Display: Export Material TexCoord Scales took 0.022 seconds.
+[2016.10.14-16.16.15:719][219]TextureStreamingBuild:Display: Build Texture Streaming took 0.014 seconds.
+[2016.10.14-16.16.15:727][219]LightingResults: New page: Lighting Build - Oct 14, 2016, 7:16:15 AM
+[2016.10.14-16.16.15:733][219]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.10.14-16.16.15:735][219]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.10.14-16.16.15:735][219]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.10.14-16.16.15:736][219]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.10.14-16.16.15:736][219]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9840
+[2016.10.14-16.16.17:392][219]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.10.14-16.16.17:392][219]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.10.14-16.16.17:392][219]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.10.14-16.16.17:392][219]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.10.14-16.16.17:392][219]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.10.14-16.16.17:670][219]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.10.14-16.16.17:670][219]MapCheck: New page: MotionControllerMap - Oct 14, 2016, 7:16:17 AM
+[2016.10.14-16.16.17:672][219]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2016.10.14-16.16.17:831][219]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 160.719ms to complete.
+[2016.10.14-16.16.17:855][219]LogEditorBuildUtils: Build time 0:03
+[2016.10.14-16.16.18:079][221]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock, compiling. 
+[2016.10.14-16.16.18:090][221]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock, compiling. 
+[2016.10.14-16.16.18:136][222]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer HDRI_Epic_Courtyard_Daylight_Mat, compiling. 
+[2016.10.14-16.16.18:142][222]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer HDRI_Epic_Courtyard_Daylight_Mat, compiling. 
+[2016.10.14-16.16.22:305][277]Job is a success!
+[2016.10.14-16.16.23:155][278]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.10.14-16.16.23:155][278]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.10.14-16.16.23:155][278]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.10.14-16.16.23:155][278]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.10.14-16.16.23:155][278]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.10.14-16.16.23:155][278]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.10.14-16.16.23:155][278]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.10.14-16.16.23:155][278]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.10.14-16.16.23:319][278]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2016.10.14-16.16.23:319][278]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2016.10.14-16.16.23:319][278]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2016.10.14-16.16.23:319][278]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2016.10.14-16.16.23:342][278]Lightmass on DESKTOP-C6JH4LA: 3.24 sec total, 158 ms importing, 25 ms setup, 276 ms photons, 2.76 sec processing, 0 ms extra exporting [81/81 mappings]. Threads: 11.0 sec total, 5.01 sec processing.
+[2016.10.14-16.16.23:475][278]LogMaterial:Warning: Material /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight_Mat.HDRI_Epic_Courtyard_Daylight_Mat needed to have new flag set bUsedWithStaticLighting !
+[2016.10.14-16.16.23:478][278]LogMaterial: Missing cached shader map for material HDRI_Epic_Courtyard_Daylight_Mat, compiling. 
+[2016.10.14-16.16.23:478][278]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight_Mat.HDRI_Epic_Courtyard_Daylight_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2016.10.14-16.16.23:478][278]LogMaterial:Warning: 	(Node TextureSample) Coercion failed: Parameters.TexCoords[0].xy: float2 -> float3
+[2016.10.14-16.16.23:478][278]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.14-16.16.23:533][278]LogStaticLightingSystem: Illumination: 7.61 sec (362 ms encoding lightmaps, 159 ms encoding shadowmaps)
+[2016.10.14-16.16.23:533][278]LogStaticLightingSystem: Lightmap texture memory:  2.1 MB (0.1 MB streaming, 2.0 MB non-streaming), 8 textures
+[2016.10.14-16.16.23:533][278]LogStaticLightingSystem: Shadowmap texture memory: 2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 4 textures
+[2016.10.14-16.16.24:416][279]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.10.14-16.16.24:417][279]MapCheck: New page: MotionControllerMap - Oct 14, 2016, 7:16:24 AM
+[2016.10.14-16.16.24:562][279]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 144.905ms to complete.
+[2016.10.14-16.16.35:315][594]Cmd: DELETE
+[2016.10.14-16.16.35:315][594]Cmd: ACTOR DELETE
+[2016.10.14-16.16.35:317][594]LogEditorActor: Deleted Actor: Brush
+[2016.10.14-16.16.35:364][594]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2016.10.14-16.16.39:963][732]Cmd: TRANSACTION UNDO
+[2016.10.14-16.16.39:963][732]LogEditorTransaction: Undo Delete Actors
+[2016.10.14-16.16.40:007][732]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
+[2016.10.14-16.16.40:011][732]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.BoxBrush15.BrushComponent0) Component already registered.
+[2016.10.14-16.16.40:012][732]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2016.10.14-16.17.20:940][905]Cmd: DELETE
+[2016.10.14-16.17.20:940][905]Cmd: ACTOR DELETE
+[2016.10.14-16.17.20:942][905]LogEditorActor: Deleted Acto

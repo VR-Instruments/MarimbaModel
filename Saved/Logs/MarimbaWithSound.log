@@ -1,9 +1,9 @@
-﻿Log file open, 11/16/16 10:18:12
+﻿Log file open, 11/18/16 10:43:57
 LogInit:Display: Running engine for game: MarimbaWithSound
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-617698092) SRandInit(-617698092).
+LogInit:Display: RandInit(832256897) SRandInit(832256897).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.688334
+LogStats: Stats thread started at 0.076369
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -133,582 +133,132 @@ LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.11.16-15.18.12:786][  0]LogConsoleManager:Display: Setting the console variable 'r.RHICmdBypass' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
-[2016.11.16-15.18.12:793][  0]LogInit: Selected Device Profile: [Windows]
-[2016.11.16-15.18.12:793][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.11.16-15.18.12:821][  0]LogInit: Computer: DESKTOP-C6JH4LA
-[2016.11.16-15.18.12:821][  0]LogInit: User: ajgaj
-[2016.11.16-15.18.12:821][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.11.16-15.18.12:821][  0]LogInit: High frequency timer resolution =2.249998 MHz
-[2016.11.16-15.18.12:822][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.11.16-15.18.12:822][  0]LogMemory: Platform Memory Stats for Windows
-[2016.11.16-15.18.12:822][  0]LogMemory: Process Physical Memory: 255.71 MB used, 255.71 MB peak
-[2016.11.16-15.18.12:822][  0]LogMemory: Process Virtual Memory: 259.96 MB used, 259.96 MB peak
-[2016.11.16-15.18.12:822][  0]LogMemory: Physical Memory: 6405.95 MB used, 16257.26 MB total
-[2016.11.16-15.18.12:822][  0]LogMemory: Virtual Memory: 622.07 MB used, 134217728.00 MB total
-[2016.11.16-15.18.13:796][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.11.16-15.18.16:353][  0]LogD3D11RHI: D3D11 adapters:
-[2016.11.16-15.18.17:013][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2016.11.16-15.18.17:013][  0]LogD3D11RHI:       4064/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2016.11.16-15.18.17:020][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2016.11.16-15.18.17:020][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2016.11.16-15.18.17:021][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.11.16-15.18.17:021][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.11.16-15.18.17:021][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.11.16-15.18.17:027][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.11.16-15.18.17:027][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2016.11.16-15.18.17:027][  0]LogWindows: EnumDisplayDevices:
-[2016.11.16-15.18.17:027][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2016.11.16-15.18.17:028][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2016.11.16-15.18.17:028][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2016.11.16-15.18.17:028][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2016.11.16-15.18.17:028][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2016.11.16-15.18.17:028][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2016.11.16-15.18.17:028][  0]LogD3D11RHI:      Driver Date: Unknown
-[2016.11.16-15.18.17:028][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.11.16-15.18.17:043][  0]LogD3D11RHI: Async texture creation enabled
-[2016.11.16-15.18.17:080][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2016.11.16-15.18.17:091][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Intermediate/Shaders/WorkingDirectory/11692/).
-[2016.11.16-15.18.17:092][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ajgaj/AppData/Local/Temp/UnrealShaderWorkingDir/F6FC161340758F8635A3BDAA77D7CE23/'.
-[2016.11.16-15.18.17:092][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.11.16-15.18.19:854][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.11.16-15.18.19:862][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.11.16-15.18.19:871][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.11.16-15.18.19:880][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.11.16-15.18.19:889][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.11.16-15.18.19:901][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.11.16-15.18.19:908][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.11.16-15.18.19:917][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.11.16-15.18.19:925][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.11.16-15.18.19:933][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.11.16-15.18.19:941][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.11.16-15.18.19:957][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.11.16-15.18.19:957][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.11.16-15.18.19:958][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.11.16-15.18.20:018][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.11.16-15.18.20:026][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.11.16-15.18.20:034][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2016.11.16-15.18.20:041][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.11.16-15.18.20:049][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.11.16-15.18.20:060][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.11.16-15.18.20:060][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.11.16-15.18.20:477][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.11.16-15.18.20:861][  0]LogDerivedDataCache: Loaded boot cache 0.38s 88MB C:/Users/ajgaj/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2016.11.16-15.18.20:861][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ajgaj/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
-[2016.11.16-15.18.20:862][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.11.16-15.18.20:862][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.11.16-15.18.20:862][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.11.16-15.18.20:862][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.11.16-15.18.20:896][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.11.16-15.18.20:909][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ajgaj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.11.16-15.18.24:548][  0]LogInit: Selected Device Profile: [Windows]
-[2016.11.16-15.18.24:566][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.11.16-15.18.24:684][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.11.16-15.18.24:684][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.11.16-15.18.24:684][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.11.16-15.18.24:972][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.11.16-15.18.25:950][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: marimbawithsound, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1803593137
-[2016.11.16-15.18.26:013][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
-[2016.11.16-15.18.26:053][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.033874 seconds
-[2016.11.16-15.18.26:059][  0]LogUObjectArray: 29777 objects as part of root set at end of initial load.
-[2016.11.16-15.18.26:059][  0]LogUObjectAllocator: 6124696 out of 0 bytes used by permanent object pool.
-[2016.11.16-15.18.26:059][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.11.16-15.18.26:067][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.11.16-15.18.26:958][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.11.16-15.18.26:959][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.11.16-15.18.29:899][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.11.16-15.18.30:336][  0]SourceControl: Info Source control is disabled
-[2016.11.16-15.18.30:397][  0]SourceControl: Info Source control is disabled
-[2016.11.16-15.18.30:412][  0]SourceControl: Info Source control is disabled
-[2016.11.16-15.18.30:422][  0]SourceControl: Info Source control is disabled
-[2016.11.16-15.18.30:799][  0]LogEngine: Initializing Engine...
-[2016.11.16-15.18.30:800][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.11.16-15.18.31:014][  0]LogAIModule: Creating AISystem for world Untitled
-[2016.11.16-15.18.31:034][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.11.16-15.18.31:186][  0]LogInit: FAudioDevice initialized.
-[2016.11.16-15.18.31:250][  0]LogDerivedDataCache: Saved boot cache 0.06s 88MB C:/Users/ajgaj/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2016.11.16-15.18.31:265][  0]LogInit: Texture streaming: Enabled
-[2016.11.16-15.18.31:385][  0]LogInit: Transaction tracking system initialized
-[2016.11.16-15.18.31:479][  0]BlueprintLog: New page: Editor Load
-[2016.11.16-15.18.31:716][  0]LocalizationService: Info Localization service is disabled
-[2016.11.16-15.18.31:896][  0]LogConsoleResponse:Display: 
-[2016.11.16-15.18.32:392][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2016.11.16-15.18.32:392][  0]LogCook:Display: Mobile HDR setting 1
-[2016.11.16-15.18.32:858][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/' took 0.02s
-[2016.11.16-15.18.32:858][  0]SourceControl: Info Source control is disabled
-[2016.11.16-15.18.32:861][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.11.16-15.18.32:863][  0]LightingResults: New page: Lighting Build
-[2016.11.16-15.18.32:877][  0]MapCheck: New page: Map Check
-[2016.11.16-15.18.32:877][  0]LightingResults: New page: Lighting Build
-[2016.11.16-15.18.32:976][  0]LogAIModule: Creating AISystem for world StartupMap
-[2016.11.16-15.18.33:165][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.11.16-15.18.33:171][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.11.16-15.18.33:223][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.068ms to complete.
-[2016.11.16-15.18.33:223][  0]LogFileHelpers: Loading map 'StartupMap' took 0.364
-[2016.11.16-15.18.33:500][  0]LogCollectionManager: Loaded 0 collections in 0.001789 seconds
-[2016.11.16-15.18.33:568][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Saved/Collections/' took 0.01s
-[2016.11.16-15.18.33:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/Developers/ajgaj/Collections/' took 0.01s
-[2016.11.16-15.18.33:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/Collections/' took 0.01s
-[2016.11.16-15.18.33:569][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2016.11.16-15.18.33:583][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2141 classes and 415 folders.
-[2016.11.16-15.18.33:599][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.11.16-15.18.33:599][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.11.16-15.18.33:600][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
-[2016.11.16-15.18.33:611][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2016.11.16-15.18.34:339][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2016.11.16-15.18.34:356][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2016.11.16-15.18.34:433][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.11.16-15.18.34:470][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.11.16-15.18.34:513][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2016.11.16-15.18.34:514][  0]LogLoad: (Engine Initialization) Total time: 24.84 seconds
-[2016.11.16-15.18.34:514][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
-[2016.11.16-15.18.34:514][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2016.11.16-15.18.34:855][  0]LogOcInput: OculusInput pre-init called
-[2016.11.16-15.18.34:891][  0]LogContentStreaming: Texture pool size now 800 MB
-[2016.11.16-15.18.35:733][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
-[2016.11.16-15.18.36:028][  2]LogPackageName:Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
-[2016.11.16-15.18.36:282][  3]LogPackageName: SearchForPackageOnDisk took   0.103s, but failed to resolve S_ClothTarps_03.
-[2016.11.16-15.18.36:282][  3]LogPackageName:Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
-[2016.11.16-15.18.38:067][  5]LogAssetRegistry: Asset discovery search completed in 12.0761 seconds
-[2016.11.16-15.18.38:067][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2016.11.16-15.18.38:067][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000515 seconds (updated 0 objects)
-[2016.11.16-15.18.40:417][ 13]LogWindows:Warning: FWindowsPlatformSurvey::TickSurveyHardware() failed to parse available memory from dxdiag report
-[2016.11.16-15.18.40:422][ 13]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
-[2016.11.16-15.18.40:422][ 13]LogSynthBenchmark:Display: ===============
-[2016.11.16-15.18.40:422][ 13]LogSynthBenchmark:Display: Main Processor:
-[2016.11.16-15.18.41:012][ 13]LogSynthBenchmark:Display:          ... 0.060725 s/Run 'RayIntersect'
-[2016.11.16-15.18.41:012][ 13]LogSynthBenchmark:Display:          ... 0.057380 s/Run 'Fractal'
-[2016.11.16-15.18.41:012][ 13]LogSynthBenchmark:Display: 
-[2016.11.16-15.18.41:012][ 13]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
-[2016.11.16-15.18.41:012][ 13]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
-[2016.11.16-15.18.41:012][ 13]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
-[2016.11.16-15.18.41:013][ 13]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
-[2016.11.16-15.18.41:013][ 13]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 16
-[2016.11.16-15.18.41:013][ 13]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
-[2016.11.16-15.18.41:013][ 13]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
-[2016.11.16-15.18.41:013][ 13]LogSynthBenchmark:Display:   CPU Perf Index 0: 42.2 (weight 1.00)
-[2016.11.16-15.18.41:013][ 13]LogSynthBenchmark:Display:   CPU Perf Index 1: 49.8 (weight 1.50)
-[2016.11.16-15.18.41:013][ 13]LogSynthBenchmark:Display:  
-[2016.11.16-15.18.41:013][ 13]LogSynthBenchmark:Display: Graphics:
-[2016.11.16-15.18.41:014][ 13]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 960M'
-[2016.11.16-15.18.41:014][ 13]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
-[2016.11.16-15.18.41:014][ 13]LogSynthBenchmark:Display:   Vendor Id: 0x10de
-[2016.11.16-15.18.41:014][ 13]LogSynthBenchmark:Display:   Device Id: 0x139b
-[2016.11.16-15.18.41:014][ 13]LogSynthBenchmark:Display:   GPU Memory: 4065/0/8129 MB
-[2016.11.16-15.18.41:026][ 13]LogSynthBenchmark:Display:   GPU first test: 0.01s
-[2016.11.16-15.18.41:026][ 13]LogSynthBenchmark:Display:          ... 2.384 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
-[2016.11.16-15.18.41:026][ 13]LogSynthBenchmark:Display:          ... 1.949 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
-[2016.11.16-15.18.41:026][ 13]LogSynthBenchmark:Display:          ... 1.594 GigaPix/s, Confidence=89% 'DepTexHeavy' (likely to be very inaccurate)
-[2016.11.16-15.18.41:026][ 13]LogSynthBenchmark:Display:          ... 6.159 GigaPix/s, Confidence=89% 'FillOnly' (likely to be very inaccurate)
-[2016.11.16-15.18.41:026][ 13]LogSynthBenchmark:Display:          ... 0.422 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
-[2016.11.16-15.18.41:062][ 13]LogSynthBenchmark:Display:   GPU second test: 0.03s
-[2016.11.16-15.18.41:062][ 13]LogSynthBenchmark:Display:          ... 3.270 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
-[2016.11.16-15.18.41:062][ 13]LogSynthBenchmark:Display:          ... 2.558 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be inaccurate)
-[2016.11.16-15.18.41:062][ 13]LogSynthBenchmark:Display:          ... 2.387 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
-[2016.11.16-15.18.41:100][ 13]LogSynthBenchmark:Display:          ... 12.844 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
-[2016.11.16-15.18.41:100][ 13]LogSynthBenchmark:Display:          ... 0.459 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display:   GPU third test: 1.22s
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display:          ... 3.758 GigaPix/s, Confidence=100% 'ALUHeavyNoise'
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display:          ... 2.941 GigaPix/s, Confidence=100% 'TexHeavy'
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display:          ... 2.886 GigaPix/s, Confidence=100% 'DepTexHeavy'
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display:          ... 15.610 GigaPix/s, Confidence=100% 'FillOnly'
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display:          ... 0.514 GigaPix/s, Confidence=100% 'Bandwidth'
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display: 
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display:   GPU Perf Index 0: 81.7 (weight 1.00)
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display:   GPU Perf Index 1: 39.5 (weight 0.10)
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display:   GPU Perf Index 2: 75.0 (weight 0.10)
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display:   GPU Perf Index 3: 61.3 (weight 3.00)
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display:   GPU Perf Index 4: 47.9 (weight 1.00)
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display:   CPUIndex: 46.8
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display:   GPUIndex: 62.5
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display: 
-[2016.11.16-15.18.42:354][ 13]LogSynthBenchmark:Display:          ... Total Time: 1.932311 sec
-[2016.11.16-15.23.49:422][689]Cmd: MAP LOAD FILE="../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.11.16-15.23.49:441][689]LightingResults: New page: Lighting Build
-[2016.11.16-15.23.49:442][689]LoadErrors: New page: Loading map: MotionControllerMap.umap
-[2016.11.16-15.23.49:447][689]MapCheck: New page: Map Check
-[2016.11.16-15.23.49:447][689]LightingResults: New page: Lighting Build
-[2016.11.16-15.23.50:521][689]LogTexture:Display: Building textures: T_Wood_Pine_D (AutoDXT)
-[2016.11.16-15.23.56:943][689]LogTexture:Display: Building textures: T_Wood_Pine_N (BC5)
-[2016.11.16-15.23.57:698][689]LogMaterial: Missing cached shader map for material M_Wood_Pine, compiling. 
-[2016.11.16-15.23.57:806][689]LogTexture:Display: Building textures: T_CleanFloorGrunge_01_D (AutoDXT)
-[2016.11.16-15.23.59:230][689]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2016.11.16-15.23.59:419][689]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2016.11.16-15.23.59:673][689]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2016.11.16-15.23.59:678][689]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
-[2016.11.16-15.23.59:694][689]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2016.11.16-15.23.59:780][689]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2016.11.16-15.23.59:968][689]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
-[2016.11.16-15.23.59:972][689]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
-[2016.11.16-15.24.00:003][689]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
-[2016.11.16-15.24.00:040][689]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
-[2016.11.16-15.24.00:046][689]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
-[2016.11.16-15.24.00:046][689]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
-[2016.11.16-15.24.00:136][689]LogMaterial: Missing cached shader map for material M_Floor_01, compiling. 
-[2016.11.16-15.24.00:192][689]LogAudioDerivedData:Display: Building compressed audio format OGG wave b3...
-[2016.11.16-15.24.00:625][689]LogAIModule: Creating AISystem for world MotionControllerMap
-[2016.11.16-15.24.00:679][689]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.11.16-15.24.00:720][689]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.11.16-15.24.00:781][689]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.081ms to complete.
-[2016.11.16-15.24.00:781][689]LogFileHelpers: Loading map 'MotionControllerMap' took 11.361
-[2016.11.16-15.29.40:667][190]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/ajgaj/Documents/Unreal Projects/IMG_20160703_160720578.jpg)
-[2016.11.16-15.29.41:002][190]LogTexture:Display: Building textures: IMG_20160703_160720578 (AutoDXT)
-[2016.11.16-15.29.53:881][446]LogMaterial: Missing cached shader map for material IMG_20160703_160720578_Mat, compiling. 
-[2016.11.16-15.29.53:908][446]LogMaterial:Warning: Material /Game/IMG_20160703_160720578_Mat.IMG_20160703_160720578_Mat needed to have new flag set bUsedWithStaticLighting !
-[2016.11.16-15.29.53:911][446]LogMaterial: Missing cached shader map for material IMG_20160703_160720578_Mat, compiling. 
-[2016.11.16-15.29.53:930][446]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.11.16-15.31.35:602][501]MapCheck: New page: Map Check
-[2016.11.16-15.31.35:637][501]Cmd: MAP REBUILD ALLVISIBLE
-[2016.11.16-15.31.35:639][501]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2016.11.16-15.31.35:781][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2016.11.16-15.31.35:789][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
-[2016.11.16-15.31.35:798][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy AntiAliasedTextMaterialTranslucent, compiling. 
-[2016.11.16-15.31.35:807][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
-[2016.11.16-15.31.35:814][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
-[2016.11.16-15.31.35:821][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
-[2016.11.16-15.31.35:828][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy IMG_20160703_160720578_Mat, compiling. 
-[2016.11.16-15.31.35:836][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
-[2016.11.16-15.31.35:843][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
-[2016.11.16-15.31.35:850][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bush, compiling. 
-[2016.11.16-15.31.35:857][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground_Grass, compiling. 
-[2016.11.16-15.31.35:864][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
-[2016.11.16-15.31.35:871][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock, compiling. 
-[2016.11.16-15.31.35:878][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TreeBark, compiling. 
-[2016.11.16-15.31.35:885][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Cherry_Tree, compiling. 
-[2016.11.16-15.31.35:893][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Exo_Generic_Plants, compiling. 
-[2016.11.16-15.31.35:901][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Tree_Stump01, compiling. 
-[2016.11.16-15.31.35:908][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Pine_Low, compiling. 
-[2016.11.16-15.31.35:915][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2016.11.16-15.31.35:922][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Walnut, compiling. 
-[2016.11.16-15.31.37:601][501]LogLevel:Display: Export Material TexCoord Scales took 0.079 seconds.
-[2016.11.16-15.31.37:617][501]TextureStreamingBuild:Display: Build Texture Streaming took 0.015 seconds.
-[2016.11.16-15.31.37:628][501]LightingResults: New page: Lighting Build - Nov 16, 2016, 5:31:37 AM
-[2016.11.16-15.31.37:734][501]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2016.11.16-15.31.37:836][501]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2016.11.16-15.31.37:851][501]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2016.11.16-15.31.38:881][501]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2016.11.16-15.31.38:881][501]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11692
-[2016.11.16-15.31.39:570][501]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2016.11.16-15.31.39:570][501]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2016.11.16-15.31.39:570][501]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2016.11.16-15.31.39:570][501]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2016.11.16-15.31.39:570][501]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2016.11.16-15.31.39:768][501]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2016.11.16-15.31.39:768][501]MapCheck: New page: MotionControllerMap - Nov 16, 2016, 5:31:39 AM
-[2016.11.16-15.31.39:792][501]MapCheck:Warning: Warning SM_Pine_Low_Cluster2_14 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.31.39:794][501]MapCheck:Warning: Warning SM_Pine_Low_Cluster3_17 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.31.39:795][501]MapCheck:Warning: Warning SM_Pine_Low_Cluster_11 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.31.39:795][501]MapCheck:Warning: Warning SM_SmallTree02_5 Collision enabled but StaticMesh (SM_SmallTree02) has no simple or complex collision. 
-[2016.11.16-15.31.39:854][501]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 86.347ms to complete.
-[2016.11.16-15.31.39:877][501]LogEditorBuildUtils: Build time 0:04
-[2016.11.16-15.31.39:967][503]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer IMG_20160703_160720578_Mat, compiling. 
-[2016.11.16-15.31.39:974][503]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer IMG_20160703_160720578_Mat, compiling. 
-[2016.11.16-15.31.48:644][963]Job is a success!
-[2016.11.16-15.31.49:422][964]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2016.11.16-15.31.49:422][964]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2016.11.16-15.31.49:422][964]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
-[2016.11.16-15.31.49:422][964]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
-[2016.11.16-15.31.49:422][964]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2016.11.16-15.31.49:422][964]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2016.11.16-15.31.49:422][964]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
-[2016.11.16-15.31.49:422][964]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
-[2016.11.16-15.31.49:603][964]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
-[2016.11.16-15.31.49:603][964]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
-[2016.11.16-15.31.49:603][964]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
-[2016.11.16-15.31.49:603][964]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
-[2016.11.16-15.31.49:638][964]Lightmass on DESKTOP-C6JH4LA: 8.45 sec total, 278 ms importing, 31 ms setup, 662 ms photons, 7.46 sec processing, 0 ms extra exporting [82/82 mappings]. Threads: 29.8 sec total, 19.2 sec processing.
-[2016.11.16-15.31.49:660][964]LogStaticLightingSystem: Illumination: 12.0 sec (652 ms encoding lightmaps, 175 ms encoding shadowmaps)
-[2016.11.16-15.31.49:660][964]LogStaticLightingSystem: Lightmap texture memory:  2.5 MB (0.5 MB streaming, 2.0 MB non-streaming), 8 textures
-[2016.11.16-15.31.49:660][964]LogStaticLightingSystem: Shadowmap texture memory: 3.3 MB (0.7 MB streaming, 2.7 MB non-streaming), 4 textures
-[2016.11.16-15.31.50:579][965]Cmd: MAP CHECK NOTIFYRESULTS
-[2016.11.16-15.31.50:579][965]MapCheck: New page: MotionControllerMap - Nov 16, 2016, 5:31:50 AM
-[2016.11.16-15.31.50:581][965]MapCheck:Warning: Warning SM_Pine_Low_Cluster2_14 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.31.50:582][965]MapCheck:Warning: Warning SM_Pine_Low_Cluster3_17 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.31.50:582][965]MapCheck:Warning: Warning SM_Pine_Low_Cluster_11 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.31.50:582][965]MapCheck:Warning: Warning SM_SmallTree02_5 Collision enabled but StaticMesh (SM_SmallTree02) has no simple or complex collision. 
-[2016.11.16-15.31.50:639][965]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 60.055ms to complete.
-[2016.11.16-15.32.11:717][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Pine_Low_Cluster2)
-[2016.11.16-15.32.25:431][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cherry_Tree)
-[2016.11.16-15.32.37:447][758]MapCheck: New page: Map Check
-[2016.11.16-15.32.37:459][758]Cmd: MAP REBUILD ALLVISIBLE
-[2016.11.16-15.32.37:459][758]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2016.11.16-15.32.37:547][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2016.11.16-15.32.37:553][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_4, compiling. 
-[2016.11.16-15.32.37:561][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy AntiAliasedTextMaterialTranslucent, compiling. 
-[2016.11.16-15.32.37:569][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
-[2016.11.16-15.32.37:576][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
-[2016.11.16-15.32.37:582][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
-[2016.11.16-15.32.37:589][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy IMG_20160703_160720578_Mat, compiling. 
-[2016.11.16-15.32.37:596][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
-[2016.11.16-15.32.37:603][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
-[2016.11.16-15.32.37:610][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bush, compiling. 
-[2016.11.16-15.32.37:617][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground_Grass, compiling. 
-[2016.11.16-15.32.37:624][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
-[2016.11.16-15.32.37:631][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock, compiling. 
-[2016.11.16-15.32.37:638][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TreeBark, compiling. 
-[2016.11.16-15.32.37:645][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Cherry_Tree, compiling. 
-[2016.11.16-15.32.37:653][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Exo_Generic_Plants, compiling. 
-[2016.11.16-15.32.37:660][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Tree_Stump01, compiling. 
-[2016.11.16-15.32.37:668][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Pine_Low, compiling. 
-[2016.11.16-15.32.37:675][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2016.11.16-15.32.37:682][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Walnut, compiling. 
-[2016.11.16-15.32.39:238][758]LogLevel:Display: Export Material TexCoord Scales took 0.012 seconds.
-[2016.11.16-15.32.39:251][758]TextureStreamingBuild:Display: Build Texture Streaming took 0.013 seconds.
-[2016.11.16-15.32.39:259][758]LightingResults: New page: Lighting Build - Nov 16, 2016, 5:32:39 AM
-[2016.11.16-15.32.39:268][758]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2016.11.16-15.32.39:271][758]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2016.11.16-15.32.39:271][758]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2016.11.16-15.32.39:272][758]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2016.11.16-15.32.39:272][758]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11692
-[2016.11.16-15.32.40:943][758]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2016.11.16-15.32.40:943][758]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2016.11.16-15.32.40:943][758]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2016.11.16-15.32.40:943][758]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2016.11.16-15.32.40:943][758]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2016.11.16-15.32.41:051][758]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2016.11.16-15.32.41:052][758]MapCheck: New page: MotionControllerMap - Nov 16, 2016, 5:32:41 AM
-[2016.11.16-15.32.41:052][758]MapCheck:Warning: Warning SM_Pine_Low_Cluster2_14 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.32.41:052][758]MapCheck:Warning: Warning SM_Pine_Low_Cluster3_17 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.32.41:052][758]MapCheck:Warning: Warning SM_Pine_Low_Cluster_11 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.32.41:052][758]MapCheck:Warning: Warning SM_SmallTree02_5 Collision enabled but StaticMesh (SM_SmallTree02) has no simple or complex collision. 
-[2016.11.16-15.32.41:108][758]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 56.611ms to complete.
-[2016.11.16-15.32.41:131][758]LogEditorBuildUtils: Build time 0:03
-[2016.11.16-15.32.49:402][225]Job is a success!
-[2016.11.16-15.32.50:155][226]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2016.11.16-15.32.50:155][226]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2016.11.16-15.32.50:155][226]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2016.11.16-15.32.50:155][226]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2016.11.16-15.32.50:155][226]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2016.11.16-15.32.50:155][226]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
-[2016.11.16-15.32.50:155][226]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
-[2016.11.16-15.32.50:155][226]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
-[2016.11.16-15.32.50:328][226]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
-[2016.11.16-15.32.50:328][226]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
-[2016.11.16-15.32.50:328][226]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
-[2016.11.16-15.32.50:328][226]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
-[2016.11.16-15.32.50:352][226]LogStaticLightingSystem: Illumination: 11.0 sec (638 ms encoding lightmaps, 169 ms encoding shadowmaps)
-[2016.11.16-15.32.50:352][226]LogStaticLightingSystem: Lightmap texture memory:  2.5 MB (0.5 MB streaming, 2.0 MB non-streaming), 8 textures
-[2016.11.16-15.32.50:352][226]LogStaticLightingSystem: Shadowmap texture memory: 3.3 MB (0.7 MB streaming, 2.7 MB non-streaming), 4 textures
-[2016.11.16-15.32.50:951][227]Cmd: MAP CHECK NOTIFYRESULTS
-[2016.11.16-15.32.50:951][227]MapCheck: New page: MotionControllerMap - Nov 16, 2016, 5:32:50 AM
-[2016.11.16-15.32.50:954][227]MapCheck:Warning: Warning SM_Pine_Low_Cluster2_14 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.32.50:954][227]MapCheck:Warning: Warning SM_Pine_Low_Cluster3_17 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.32.50:954][227]MapCheck:Warning: Warning SM_Pine_Low_Cluster_11 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.32.50:954][227]MapCheck:Warning: Warning SM_SmallTree02_5 Collision enabled but StaticMesh (SM_SmallTree02) has no simple or complex collision. 
-[2016.11.16-15.32.51:011][227]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 58.857ms to complete.
-[2016.11.16-15.32.58:286][521]LogSavePackage: Save=312.03ms
-[2016.11.16-15.32.58:286][521]LogSavePackage: Moving '../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Saved/MotionControllerMap6932EF4645A6020B5D28AAA991F9155A.tmp' to '../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2016.11.16-15.32.58:293][521]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
-[2016.11.16-15.32.58:321][521]LogFileHelpers: Saving map 'MotionControllerMap' took 0.432
-[2016.11.16-15.32.58:330][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IMG_20160703_160720578" FILE="../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/IMG_20160703_160720578.uasset" SILENT=true
-[2016.11.16-15.32.59:655][521]LogSavePackage: Save=1323.64ms
-[2016.11.16-15.32.59:656][521]LogSavePackage: Moving '../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Saved/IMG_20160703_1607205780858246749FE06CDF07344ABF03D05E6.tmp' to '../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/IMG_20160703_160720578.uasset'
-[2016.11.16-15.32.59:658][521]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/IMG_20160703_160720578.uasset
-[2016.11.16-15.32.59:676][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IMG_20160703_160720578_Mat" FILE="../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/IMG_20160703_160720578_Mat.uasset" SILENT=true
-[2016.11.16-15.32.59:696][521]LogSavePackage: Save=18.24ms
-[2016.11.16-15.32.59:696][521]LogSavePackage: Moving '../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Saved/IMG_20160703_160720578_MatF97A6FB14D286DFD059B23B6B7F3D9C5.tmp' to '../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/IMG_20160703_160720578_Mat.uasset'
-[2016.11.16-15.32.59:699][521]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/IMG_20160703_160720578_Mat.uasset
-[2016.11.16-15.33.13:541][351]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2016.11.16-15.34.35:779][267]LogTexture:Display: Building textures: T_Frame_N (BC5)
-[2016.11.16-15.34.36:458][267]LogTexture:Display: Building textures: T_Frame_M (DXT1)
-[2016.11.16-15.34.37:227][267]LogMaterial: Missing cached shader map for material M_Frame, compiling. 
-[2016.11.16-15.34.37:283][267]LogActorFactory: Actor Factory created SM_CornerFrame
-[2016.11.16-15.34.37:292][267]LogActorFactory: Actor Factory created SM_CornerFrame
-[2016.11.16-15.34.45:613][759]Cmd: DELETE
-[2016.11.16-15.34.45:613][759]Cmd: ACTOR DELETE
-[2016.11.16-15.34.45:635][759]LogEditorActor: Deleted Actor: StaticMeshActor
-[2016.11.16-15.34.45:644][759]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2016.11.16-15.35.15:727][552]LogTexture:Display: Building textures: T_BranchTrunk_D (AutoDXT)
-[2016.11.16-15.35.19:272][552]LogStaticMesh: Building static mesh SM_LeavePiles_02...
-[2016.11.16-15.35.19:299][552]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeGrassLands/Environments/Earth/StaticMesh/SM_LeavePiles_02.SM_LeavePiles_02
-[2016.11.16-15.35.19:306][552]LogMaterial: Missing cached shader map for material M_LeavesPile, compiling. 
-[2016.11.16-15.35.19:354][552]LogActorFactory: Actor Factory created SM_LeavePiles_02
-[2016.11.16-15.35.22:931][761]LogActorFactory: Actor Factory created SM_LeavePiles_02
-[2016.11.16-15.35.43:123][970]Cmd: DELETE
-[2016.11.16-15.35.43:123][970]Cmd: ACTOR DELETE
-[2016.11.16-15.35.43:124][970]LogEditorActor: Deleted Actor: StaticMeshActor
-[2016.11.16-15.35.43:132][970]LogEditorActor: Deleted 1 Actors (0.009 secs)
-[2016.11.16-15.36.53:296][161]LogTexture:Display: Building textures: T_Env_Plains_Mountain01_D (AutoDXT)
-[2016.11.16-15.36.59:816][161]LogTexture:Display: Building textures: T_Env_Plains_Mountain01_N (BC5)
-[2016.11.16-15.37.00:718][161]LogMaterial: Missing cached shader map for material M_Env_Plains_Mountain01, compiling. 
-[2016.11.16-15.37.00:741][161]LogStaticMesh: Building static mesh SM_Env_Plains_Mountain_01...
-[2016.11.16-15.37.00:767][161]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Background/StaticMesh/SM_Env_Plains_Mountain_01.SM_Env_Plains_Mountain_01
-[2016.11.16-15.37.00:800][161]LogActorFactory: Actor Factory created SM_Env_Plains_Mountain_01
-[2016.11.16-15.37.03:497][319]LogActorFactory: Actor Factory created SM_Env_Plains_Mountain_01
-[2016.11.16-15.37.38:153][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plains_Mountain_01)
-[2016.11.16-15.37.55:451][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plains_Mountain_01)
-[2016.11.16-15.39.03:551][504]Cmd: DELETE
-[2016.11.16-15.39.03:551][504]Cmd: ACTOR DELETE
-[2016.11.16-15.39.03:552][504]LogEditorActor: Deleted Actor: StaticMeshActor
-[2016.11.16-15.39.03:561][504]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2016.11.16-15.40.05:222][203]LogMaterial: Missing cached shader map for material M_Trans_Sprite_SubUV_Master, compiling. 
-[2016.11.16-15.40.05:270][203]LogTexture:Display: Building textures: T_LeafFlip_6X6_01 (AutoDXT)
-[2016.11.16-15.40.05:684][203]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
-[2016.11.16-15.40.48:456][748]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2016.11.16-15.40.48:457][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.11.16-15.40.48:459][748]PIE: New page: PIE session: MotionControllerMap (Nov 16, 2016, 5:40:48 AM)
-[2016.11.16-15.40.48:460][748]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2016.11.16-15.40.48:477][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016885s)
-[2016.11.16-15.40.48:478][748]LogAIModule: Creating AISystem for world MotionControllerMap
-[2016.11.16-15.40.48:479][748]LogPlayLevel: PIE: World Init took: (0.002292s)
-[2016.11.16-15.40.48:480][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.020042s)
-[2016.11.16-15.40.48:496][748]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.11.16-15.40.48:513][748]LogInit: FAudioDevice initialized.
-[2016.11.16-15.40.48:568][748]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.11.16-15.40.48:568][748]LogWorld: Game class is 'GameMode'
-[2016.11.16-15.40.48:587][748]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2016.11.16-10.40.48
-[2016.11.16-15.40.48:593][748]LogWorld: Bringing up level for play took: 0.012005
-[2016.11.16-15.40.48:608][748]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2016.11.16-15.40.48:608][748]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.11.16-15.40.48:608][748]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.11.16-15.40.48:608][748]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.11.16-15.40.48:619][748]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.11.16-15.40.48:619][748]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.178
-[2016.11.16-15.40.48:619][748]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2016.11.16-15.40.54:869][120]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2016.11.16-15.40.54:929][120]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2016.11.16-15.40.58:369][323]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
-[2016.11.16-15.41.12:446][151]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2016.11.16-15.41.12:446][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.11.16-15.41.12:446][151]PIE: New page: PIE session: MotionControllerMap (Nov 16, 2016, 5:41:12 AM)
-[2016.11.16-15.41.12:446][151]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2016.11.16-15.41.12:460][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013555s)
-[2016.11.16-15.41.12:460][151]LogAIModule: Creating AISystem for world MotionControllerMap
-[2016.11.16-15.41.12:461][151]LogPlayLevel: PIE: World Init took: (0.000758s)
-[2016.11.16-15.41.12:461][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.014604s)
-[2016.11.16-15.41.12:500][151]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.11.16-15.41.12:512][151]LogInit: FAudioDevice initialized.
-[2016.11.16-15.41.12:541][151]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.11.16-15.41.12:541][151]LogWorld: Game class is 'GameMode'
-[2016.11.16-15.41.12:548][151]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2016.11.16-10.41.12
-[2016.11.16-15.41.12:549][151]LogWorld: Bringing up level for play took: 0.006894
-[2016.11.16-15.41.12:549][151]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.11.16-15.41.12:549][151]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.11.16-15.41.12:549][151]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.11.16-15.41.12:551][151]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.11.16-15.41.12:552][151]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.111
-[2016.11.16-15.41.12:552][151]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2016.11.16-15.41.35:309][515]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2016.11.16-15.41.35:355][515]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2016.11.16-15.41.39:730][770]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
-[2016.11.16-15.42.56:141][316]LogSavePackage: Save=285.16ms
-[2016.11.16-15.42.56:141][316]LogSavePackage: Moving '../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Saved/MotionControllerMap132167F040534A4A2E24DF975A9FBF5D.tmp' to '../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2016.11.16-15.42.56:144][316]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
-[2016.11.16-15.42.57:957][423]MapCheck: New page: Map Check
-[2016.11.16-15.42.57:966][423]Cmd: MAP REBUILD ALLVISIBLE
-[2016.11.16-15.42.57:966][423]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2016.11.16-15.42.58:046][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2016.11.16-15.42.58:052][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_6, compiling. 
-[2016.11.16-15.42.58:060][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy AntiAliasedTextMaterialTranslucent, compiling. 
-[2016.11.16-15.42.58:068][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
-[2016.11.16-15.42.58:075][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
-[2016.11.16-15.42.58:082][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
-[2016.11.16-15.42.58:089][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy IMG_20160703_160720578_Mat, compiling. 
-[2016.11.16-15.42.58:096][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
-[2016.11.16-15.42.58:103][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
-[2016.11.16-15.42.58:110][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bush, compiling. 
-[2016.11.16-15.42.58:117][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground_Grass, compiling. 
-[2016.11.16-15.42.58:124][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
-[2016.11.16-15.42.58:132][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock, compiling. 
-[2016.11.16-15.42.58:139][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TreeBark, compiling. 
-[2016.11.16-15.42.58:146][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Cherry_Tree, compiling. 
-[2016.11.16-15.42.58:154][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Exo_Generic_Plants, compiling. 
-[2016.11.16-15.42.58:161][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Tree_Stump01, compiling. 
-[2016.11.16-15.42.58:169][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Pine_Low, compiling. 
-[2016.11.16-15.42.58:176][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_LeafFlip_Trans_6X6_INST, compiling. 
-[2016.11.16-15.42.58:182][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2016.11.16-15.42.58:190][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Walnut, compiling. 
-[2016.11.16-15.42.59:945][423]LogLevel:Display: Export Material TexCoord Scales took 0.010 seconds.
-[2016.11.16-15.42.59:959][423]TextureStreamingBuild:Display: Build Texture Streaming took 0.014 seconds.
-[2016.11.16-15.42.59:969][423]LightingResults: New page: Lighting Build - Nov 16, 2016, 5:42:59 AM
-[2016.11.16-15.42.59:984][423]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2016.11.16-15.42.59:986][423]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2016.11.16-15.42.59:986][423]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2016.11.16-15.42.59:987][423]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2016.11.16-15.42.59:987][423]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11692
-[2016.11.16-15.43.01:638][423]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2016.11.16-15.43.01:638][423]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2016.11.16-15.43.01:638][423]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2016.11.16-15.43.01:638][423]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2016.11.16-15.43.01:638][423]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2016.11.16-15.43.01:818][423]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2016.11.16-15.43.01:818][423]MapCheck: New page: MotionControllerMap - Nov 16, 2016, 5:43:01 AM
-[2016.11.16-15.43.01:818][423]MapCheck:Warning: Warning SM_Pine_Low_Cluster2_14 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.43.01:818][423]MapCheck:Warning: Warning SM_Pine_Low_Cluster3_17 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.43.01:818][423]MapCheck:Warning: Warning SM_Pine_Low_Cluster_11 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.43.01:818][423]MapCheck:Warning: Warning SM_SmallTree02_5 Collision enabled but StaticMesh (SM_SmallTree02) has no simple or complex collision. 
-[2016.11.16-15.43.01:877][423]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 58.801ms to complete.
-[2016.11.16-15.43.01:899][423]LogEditorBuildUtils: Build time 0:03
-[2016.11.16-15.43.10:699][617]Job is a success!
-[2016.11.16-15.43.11:905][618]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2016.11.16-15.43.11:905][618]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2016.11.16-15.43.11:905][618]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
-[2016.11.16-15.43.11:905][618]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
-[2016.11.16-15.43.11:905][618]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2016.11.16-15.43.11:905][618]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2016.11.16-15.43.11:905][618]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
-[2016.11.16-15.43.11:905][618]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
-[2016.11.16-15.43.12:106][618]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
-[2016.11.16-15.43.12:106][618]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
-[2016.11.16-15.43.12:106][618]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
-[2016.11.16-15.43.12:112][618]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8)
-[2016.11.16-15.43.12:158][618]LogStaticLightingSystem: Illumination: 11.8 sec (753 ms encoding lightmaps, 201 ms encoding shadowmaps)
-[2016.11.16-15.43.12:158][618]LogStaticLightingSystem: Lightmap texture memory:  2.5 MB (0.5 MB streaming, 2.0 MB non-streaming), 8 textures
-[2016.11.16-15.43.12:158][618]LogStaticLightingSystem: Shadowmap texture memory: 3.3 MB (0.7 MB streaming, 2.7 MB non-streaming), 4 textures
-[2016.11.16-15.43.12:678][619]Cmd: MAP CHECK NOTIFYRESULTS
-[2016.11.16-15.43.12:678][619]MapCheck: New page: MotionControllerMap - Nov 16, 2016, 5:43:12 AM
-[2016.11.16-15.43.12:679][619]MapCheck:Warning: Warning SM_Pine_Low_Cluster2_14 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.43.12:679][619]MapCheck:Warning: Warning SM_Pine_Low_Cluster3_17 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.43.12:679][619]MapCheck:Warning: Warning SM_Pine_Low_Cluster_11 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.43.12:679][619]MapCheck:Warning: Warning SM_SmallTree02_5 Collision enabled but StaticMesh (SM_SmallTree02) has no simple or complex collision. 
-[2016.11.16-15.43.12:781][619]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 102.869ms to complete.
-[2016.11.16-15.44.11:042][  0]LogEditorViewport: Clicking on Actor (LMB): NoteBlock_BP_C (NoteBlock_BP19660)
-[2016.11.16-15.44.19:815][479]LogSavePackage: Save=280.09ms
-[2016.11.16-15.44.19:815][479]LogSavePackage: Moving '../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Saved/MotionControllerMapB8C7F80A429AA8F54C102893B435CBBB.tmp' to '../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2016.11.16-15.44.19:818][479]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
-[2016.11.16-15.44.22:271][614]MapCheck: New page: Map Check
-[2016.11.16-15.44.22:288][614]Cmd: MAP REBUILD ALLVISIBLE
-[2016.11.16-15.44.22:288][614]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2016.11.16-15.44.22:372][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2016.11.16-15.44.22:378][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_8, compiling. 
-[2016.11.16-15.44.22:385][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy AntiAliasedTextMaterialTranslucent, compiling. 
-[2016.11.16-15.44.22:393][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
-[2016.11.16-15.44.22:401][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
-[2016.11.16-15.44.22:408][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
-[2016.11.16-15.44.22:415][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy IMG_20160703_160720578_Mat, compiling. 
-[2016.11.16-15.44.22:421][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
-[2016.11.16-15.44.22:428][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
-[2016.11.16-15.44.22:435][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bush, compiling. 
-[2016.11.16-15.44.22:442][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground_Grass, compiling. 
-[2016.11.16-15.44.22:449][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
-[2016.11.16-15.44.22:456][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock, compiling. 
-[2016.11.16-15.44.22:463][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TreeBark, compiling. 
-[2016.11.16-15.44.22:470][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Cherry_Tree, compiling. 
-[2016.11.16-15.44.22:478][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Exo_Generic_Plants, compiling. 
-[2016.11.16-15.44.22:486][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Tree_Stump01, compiling. 
-[2016.11.16-15.44.22:493][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Pine_Low, compiling. 
-[2016.11.16-15.44.22:500][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_LeafFlip_Trans_6X6_INST, compiling. 
-[2016.11.16-15.44.22:506][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2016.11.16-15.44.22:513][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Walnut, compiling. 
-[2016.11.16-15.44.24:126][614]LogLevel:Display: Export Material TexCoord Scales took 0.017 seconds.
-[2016.11.16-15.44.24:143][614]TextureStreamingBuild:Display: Build Texture Streaming took 0.016 seconds.
-[2016.11.16-15.44.24:154][614]LightingResults: New page: Lighting Build - Nov 16, 2016, 5:44:24 AM
-[2016.11.16-15.44.24:161][614]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2016.11.16-15.44.24:164][614]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2016.11.16-15.44.24:164][614]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2016.11.16-15.44.24:165][614]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2016.11.16-15.44.24:165][614]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11692
-[2016.11.16-15.44.25:815][614]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2016.11.16-15.44.25:815][614]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2016.11.16-15.44.25:815][614]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2016.11.16-15.44.25:815][614]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2016.11.16-15.44.25:815][614]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2016.11.16-15.44.25:927][614]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2016.11.16-15.44.25:927][614]MapCheck: New page: MotionControllerMap - Nov 16, 2016, 5:44:25 AM
-[2016.11.16-15.44.25:928][614]MapCheck:Warning: Warning SM_Pine_Low_Cluster2_14 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.44.25:928][614]MapCheck:Warning: Warning SM_Pine_Low_Cluster3_17 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.44.25:928][614]MapCheck:Warning: Warning SM_Pine_Low_Cluster_11 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
-[2016.11.16-15.44.25:928][614]MapCheck:Warning: Warning SM_SmallTree02_5 Collision enabled but StaticMesh (SM_SmallTree02) has no simple or complex collision. 
-[2016.11.16-15.44.25:983][614]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 55.538ms to complete.
-[2016.11.16-15.44.26:007][614]LogEditorBuildUtils: Build time 0:03
-[2016.11.16-15.44.34:512][917]Job is a success!
+[2016.11.18-15.43.57:456][  0]LogConsoleManager:Display: Setting the console variable 'r.RHICmdBypass' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2016.11.18-15.43.57:459][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.18-15.43.57:459][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.18-15.43.57:471][  0]LogInit: Computer: DESKTOP-C6JH4LA
+[2016.11.18-15.43.57:471][  0]LogInit: User: ajgaj
+[2016.11.18-15.43.57:471][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.18-15.43.57:471][  0]LogInit: High frequency timer resolution =2.249998 MHz
+[2016.11.18-15.43.57:471][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.18-15.43.57:472][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.18-15.43.57:472][  0]LogMemory: Process Physical Memory: 255.52 MB used, 255.52 MB peak
+[2016.11.18-15.43.57:472][  0]LogMemory: Process Virtual Memory: 259.87 MB used, 259.87 MB peak
+[2016.11.18-15.43.57:472][  0]LogMemory: Physical Memory: 7014.62 MB used, 16257.26 MB total
+[2016.11.18-15.43.57:472][  0]LogMemory: Virtual Memory: 622.07 MB used, 134217728.00 MB total
+[2016.11.18-15.43.58:117][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.18-15.43.58:718][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.18-15.43.58:749][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2016.11.18-15.43.58:749][  0]LogD3D11RHI:       4064/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.11.18-15.43.58:755][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2016.11.18-15.43.58:755][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.11.18-15.43.58:756][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.18-15.43.58:756][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.18-15.43.58:756][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.18-15.43.58:762][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.18-15.43.58:762][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2016.11.18-15.43.58:762][  0]LogWindows: EnumDisplayDevices:
+[2016.11.18-15.43.58:762][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2016.11.18-15.43.58:763][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.11.18-15.43.58:763][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.11.18-15.43.58:763][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2016.11.18-15.43.58:763][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2016.11.18-15.43.58:763][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2016.11.18-15.43.58:763][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.11.18-15.43.58:763][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.18-15.43.58:777][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.18-15.43.58:787][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.11.18-15.43.58:788][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Intermediate/Shaders/WorkingDirectory/16412/).
+[2016.11.18-15.43.58:788][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ajgaj/AppData/Local/Temp/UnrealShaderWorkingDir/CD54AF6241C2CDE7784E74A0D35BE6E7/'.
+[2016.11.18-15.43.58:788][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.18-15.43.59:747][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.18-15.43.59:756][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.18-15.43.59:765][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.18-15.43.59:774][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.18-15.43.59:783][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.18-15.43.59:790][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.18-15.43.59:799][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.18-15.43.59:805][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.18-15.43.59:813][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.18-15.43.59:821][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.18-15.43.59:828][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.18-15.43.59:843][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.18-15.43.59:843][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.18-15.43.59:844][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.18-15.43.59:866][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.18-15.43.59:873][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.18-15.43.59:881][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.18-15.43.59:889][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.18-15.43.59:896][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.18-15.43.59:903][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.18-15.43.59:903][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.18-15.43.59:972][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.18-15.44.00:049][  0]LogDerivedDataCache: Loaded boot cache 0.08s 70MB C:/Users/ajgaj/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.18-15.44.00:049][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ajgaj/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.11.18-15.44.00:049][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.18-15.44.00:049][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.18-15.44.00:049][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.18-15.44.00:049][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.18-15.44.00:068][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.18-15.44.00:080][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ajgaj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.18-15.44.00:317][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.18-15.44.00:323][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.18-15.44.00:433][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.18-15.44.00:433][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.18-15.44.00:433][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.18-15.44.00:508][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.18-15.44.00:855][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: marimbawithsound, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1803593137
+[2016.11.18-15.44.00:894][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2016.11.18-15.44.00:922][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025299 seconds
+[2016.11.18-15.44.00:928][  0]LogUObjectArray: 29777 objects as part of root set at end of initial load.
+[2016.11.18-15.44.00:928][  0]LogUObjectAllocator: 6124696 out of 0 bytes used by permanent object pool.
+[2016.11.18-15.44.00:928][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.18-15.44.00:936][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.18-15.44.01:167][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.18-15.44.01:167][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.18-15.44.01:826][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.18-15.44.02:065][  0]SourceControl: Info Source control is disabled
+[2016.11.18-15.44.02:110][  0]SourceControl: Info Source control is disabled
+[2016.11.18-15.44.02:119][  0]SourceControl: Info Source control is disabled
+[2016.11.18-15.44.02:126][  0]SourceControl: Info Source control is disabled
+[2016.11.18-15.44.02:393][  0]LogEngine: Initializing Engine...
+[2016.11.18-15.44.02:394][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.18-15.44.02:546][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.18-15.44.02:554][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.18-15.44.02:697][  0]LogInit: FAudioDevice initialized.
+[2016.11.18-15.44.02:731][  0]LogDerivedDataCache: Saved boot cache 0.03s 70MB C:/Users/ajgaj/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.18-15.44.02:739][  0]LogInit: Texture streaming: Enabled
+[2016.11.18-15.44.02:768][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.18-15.44.02:804][  0]LogInit: Transaction tracking system initialized
+[2016.11.18-15.44.02:824][  0]BlueprintLog: New page: Editor Load
+[2016.11.18-15.44.02:893][  0]LocalizationService: Info Localization service is disabled
+[2016.11.18-15.44.02:964][  0]LogConsoleResponse:Display: 
+[2016.11.18-15.44.03:078][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.18-15.44.03:078][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.18-15.44.03:216][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/' took 0.02s
+[2016.11.18-15.44.03:216][  0]SourceControl: Info Source control is disabled
+[2016.11.18-15.44.03:217][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.18-15.44.03:217][  0]LightingResults: New page: Lighting Build
+[2016.11.18-15.44.03:221][  0]MapCheck: New page: Map Check
+[2016.11.18-15.44.03:221][  0]LightingResults: New page: Lighting Build
+[2016.11.18-15.44.03:302][  0]LogAIModule: Creating AISystem for world StartupMap
+[2016.11.18-15.44.03:309][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.18-15.44.03:310][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.18-15.44.03:349][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.994ms to complete.
+[2016.11.18-15.44.03:350][  0]LogFileHelpers: Loading map 'StartupMap' took 0.133
+[2016.11.18-15.44.03:468][  0]LogCollectionManager: Loaded 1 collections in 0.002317 seconds
+[2016.11.18-15.44.03:507][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Saved/Collections/' took 0.01s
+[2016.11.18-15.44.03:507][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/Developers/ajgaj/Collections/' took 0.01s
+[2016.11.18-15.44.03:507][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ajgaj/Documents/Unreal Projects/MarimbaModel/Content/Collections/' took 0.01s
+[2016.11.18-15.44.03:507][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000004 seconds
+[2016.11.18-15.44.03:507][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2016.11.18-15.44.03:516][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2141 classes and 415 folders.
+[2016.11.18-15.44.03:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.18-15.44.03:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.18-15.44.03:521][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.11.18-15.44.03:525][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.18-15.44.03:562][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.11.18-15.44.03:566][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.11.18-15.44.03:580][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.18-15.44.03:586][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.18-15.44.03:612][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes 

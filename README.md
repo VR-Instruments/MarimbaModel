@@ -2,8 +2,8 @@
 ## Overview
 This project was started as a class project for CSCI-751 (Fall 2016) to create
 a virtual reality in which you can pick up and use various virtual instruments,
-the first of which being the marimba. For more information, see the User Manual
-PDF.
+the first of which being the marimba. For more information, see the docs/
+directory.
 
 ## Developers
 Andrew Glaude       RIT CS      <ajg2440@rit.edu>
